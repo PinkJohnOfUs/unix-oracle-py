@@ -1,3 +1,0 @@
-Schreibe Computerprogramme so, dass sie nur eine Aufgabe erledigen und diese gut machen.
-Schreibe Programme so, dass sie zusammenarbeiten.
-Schreibe Programme so, dass sie Textströme verarbeiten, denn das ist eine universelle Schnittstelle.

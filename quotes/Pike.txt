@@ -1,6 +1,0 @@
-Regel 1: Man kann nicht sagen, welcher Programmteil den Hauptteil der Leistung fressen wird. Da Engpässe oft an überraschenden Stellen auftauchen, soll man nichts zur Erhöhung der Geschwindigkeit einbauen, bevor man gezeigt hat, wo der Engpass sitzt.
-Regel 2: Miss die Programmlaufzeit. Feile erst an der Geschwindigkeit, wenn du sie gemessen hast und selbst dann erst, wenn der betrachtete Teil einen dominierenden Anteil der Rechenzeit frisst.
-Regel 3: Hochgezüchtete Algorithmen sind langsam, wenn die Eingabedatenmenge {\displaystyle n}n (siehe Komplexitätstheorie) klein ist und das ist der Normalfall. Hochgezüchtete Algorithmen haben große Fixkosten. Solange man nicht weiß, dass {\displaystyle n}n häufig große Werte annehmen wird, sollte man auf hochgezüchtete Algorithmen verzichten. (Und selbst, wenn {\displaystyle n}n groß wird, gilt zuerst Regel 2.)
-Regel 4: Hochgezüchtete Algorithmen sind fehleranfälliger als einfache und viel schwieriger zu implementieren. Benutze sowohl einfache Algorithmen als auch einfache Datenstrukturen.
-Regel 5: Daten sind wichtiger. Wenn du die richtigen Datenstrukturen gewählt hast und alles gut gestaltet ist, werden sich die Algorithmen fast immer von alleine ergeben. Datenstrukturen sind das zentrale Thema des Programmierens, nicht Algorithmen.
-Regel 6: Es gibt keine Regel 6.

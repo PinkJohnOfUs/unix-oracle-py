@@ -9,7 +9,7 @@ import os
 from random import randrange
 
 QUOTES_PATH = os.getcwd() + '/quotes/'    ##BUG: NOT WORKING ON WINDOWS -> only linux path used
-DEFAULT_PERSON = 'ALL'
+DEFAULT_PERSON = 'Jeder'
 PERSON1 = 'McIlroy'
 PERSON2 = 'Pike'
 ALLPERSONS = [PERSON1, PERSON2]
@@ -53,7 +53,7 @@ def main(options):
 if __name__ == '__main__':
 	try:
 		args = parse_arguments()
-		print(args.person + "sagt")
+		print(args.person + " sagt:")
 		main(args)
 	except KeyboardInterrupt:
 		pass

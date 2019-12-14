@@ -16,7 +16,7 @@ ALLPERSONS = [PERSON1, PERSON2]
 
 class UnixOracle:
 
-	def print_quote(self, _from) -> None:
+	def print_quote(self, _from):
 		#only permit to print quotes of known persons
 		assert _from != DEFAULT_PERSON and _from != PERSON1 and _from != PERSON2
 		quotes = list() #TODO: use numpy
@@ -51,13 +51,13 @@ def main(options):
 	oracle.print_quote(options)
 
 if __name__ == '__main__':
-	print("Starting")
 	try:
 		args = parse_arguments()
+		print(args.person + "sagt")
 		main(args)
 	except KeyboardInterrupt:
 		pass
 	except Exception as e:
 		print("Unexpected exception:", e)
 	finally:
-		print("Exiting")
+		print("Bis bald")

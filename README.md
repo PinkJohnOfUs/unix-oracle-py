@@ -2,7 +2,6 @@
 simple console program that prints unix-philosophie quotes.
 If you want to run it on windows change QUOTES_PATH
 
-
 usage: python -m unixoracle [-h] [-p PERSON] [-q QUOTES]
 
 unix oracle choose a person -p --person

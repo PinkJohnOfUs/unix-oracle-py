@@ -10,8 +10,8 @@ from random import randrange
 
 QUOTES_PATH = os.getcwd() + '/quotes/'    ##BUG: NOT WORKING ON WINDOWS -> only linux path used
 DEFAULT_PERSON = 'Jeder'
-PERSON1 = 'McIlroy'
-PERSON2 = 'Pike'
+PERSON1 = 'Fuchs'
+PERSON2 = 'Horst'
 ALLPERSONS = [PERSON1, PERSON2]
 
 class UnixOracle:
